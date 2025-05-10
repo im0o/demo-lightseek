@@ -1,0 +1,113 @@
+.top-container {
+  height: 100vh;
+  background-color: #00000044;
+}
+
+.top-container .navbar {
+  background-color: transparent;
+  border: none;
+  /* 使导航栏透明 */
+  box-shadow: none;
+  padding: 1.4rem 10rem;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(180deg,   rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+  display: flex;
+  align-items: center;
+  text-shadow: 0 0 4px #000;
+}
+
+.top-container .navbar .logo {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.top-container .navbar .logo img {
+  height: 3.2rem;
+  margin-right: 0.5rem;
+  vertical-align: baseline;
+}
+
+.top-container .navbar .logo a {
+  font-family: 'MaShanZhang';
+  font-size: 1.8rem;
+  color: #f1f1f1;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.top-container .navbar ul li a:hover {
+  background-color: #fff;
+  color: #000;
+  text-shadow: none;
+}
+.top-container .navbar ul {
+  list-style: none;
+  margin: 0;
+}
+
+.top-container .navbar ul li {
+  display: inline-block;
+  /* margin: 0 5px; */
+}
+
+.top-container .navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.top-container .main_logo {
+  width: 100%;
+  min-height: 76%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-container .main_logo span {
+  font-family: 'PangMenZhengDao';
+  font-size: 12rem;
+  color: #fff;
+  text-decoration: none;
+  /* 黑色投影 */
+  text-shadow: 0 0 6px #000;
+  /* 不可选择 */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.top-container .arrow_down {
+  width: 100%;
+  height: 16%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-container .arrow_down img {
+  width: 2.4rem;
+  height: 2.4rem;
+  animation: arrow_down 1.5s infinite;
+}
+
+@keyframes arrow_down {
+  0% {
+    transform: translateY(0);
+    filter: brightness(100%);
+  }
+  50% {
+    transform: translateY(10px);
+    filter: brightness(50%);
+  }
+  100% {
+    transform: translateY(0);
+    filter: brightness(100%);
+  }
+}
