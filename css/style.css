@@ -2,17 +2,17 @@
 /* font */
 @font-face {
   font-family: 'MaShanZhang';
-  src: url(../fonts/MaShanZheng-Regular.ttf);
+  src: url(../fonts/MaShanZheng-Regular.woff2);
 }
 
 @font-face {
   font-family: 'PangMenZhengDao';
-  src: url(../fonts/PangMenZhengDaoCuShuTi-2.ttf);
+  src: url(../fonts/PangMenZhengDaoCuShuTi-2.woff2);
 }
 
 @font-face {
   font-family: "ZCOOL XiaoWei";
-  src: url(../fonts/ZCOOLXiaoWei-Regular.ttf);
+  src: url(../fonts/ZCOOLXiaoWei-Regular.woff2);
 }
 
 

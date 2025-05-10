@@ -9,7 +9,7 @@ window.onload = async () => {
       bgvideo.src = "./assets/background.mp4";
     } else {
       index = 1;
-      bgvideo.src = "./assets/background2.mp4";
+      bgvideo.src = "./assets/background.mp4";
     }
   };
   await audio.play();
